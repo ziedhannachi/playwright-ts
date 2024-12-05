@@ -1,0 +1,133 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "check-contact-me-form-functionality;successfull-submit-form",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Successfull submit form",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 713581500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I am a user on login page",
+            "match": {
+              "location": "tests\\steps\\LoginSteps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 659987299
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Login",
+                      "standard_user"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Password",
+                      "secret_sauce"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I fill all informations in the form",
+            "match": {
+              "location": "tests\\steps\\LoginSteps.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 197113800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I submit the credtial",
+            "match": {
+              "location": "tests\\steps\\LoginSteps.ts:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 276066700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I m redirected to the home page",
+            "match": {
+              "location": "tests\\steps\\LoginSteps.ts:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 39062299
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 326995299
+            },
+            "embeddings": [
+              {
+                "data": "QnJvd3NlcjpjaHJvbWl1bSBWZXJzaW9uOiAxMjUuMC42NDIyLjI2",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "U3RhdHVzOiBQQVNTRUQuIER1cmF0aW9uOjBz",
+                "mime_type": "text/plain"
+              }
+            ]
+          }
+        ],
+        "tags": [
+          {
+            "name": "@LoginPage",
+            "line": 1
+          },
+          {
+            "name": "@SuccessfullLogin",
+            "line": 4
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "check-contact-me-form-functionality",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Check contact me form functionality",
+    "tags": [
+      {
+        "name": "@LoginPage",
+        "line": 1
+      }
+    ],
+    "uri": "tests\\feature\\login.feature"
+  }
+]
